@@ -1,0 +1,15 @@
+name "ion-d"
+description "Amazon Ion bindings"
+authors "Harrison Ford"
+copyright "Copyright © 2020, Harrison Ford"
+license "proprietary"
+dependency "silly" version="~>1.0.2"
+libs "ionc"
+configuration "library" {
+	targetType "library"
+	dflags "-dip25" "-dip1000"
+}
+
+configuration "unittest" {
+
+}
